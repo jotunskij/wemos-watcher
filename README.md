@@ -14,7 +14,7 @@ Temperature and humidity watcher build on a Wemos D1 mini v2
  * Clone this project to your sketchbook directory and add a ```secrets.h``` file with the following content:
 ```c++
 namespace secrets {
-  const char* ssid = "YOUR_WIFI_PASSWORD";
+  const char* ssid = "YOUR_WIFI_SSID";
   const char* password = "YOUR_WIFI_PASSWORD";
 }
 ```
