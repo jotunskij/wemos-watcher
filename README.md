@@ -1,5 +1,11 @@
 # wemos-watcher
-Temperature and humidity watcher build on a Wemos D1 mini v2
+Temperature and humidity watcher build on a Wemos D1 mini v2.
+
+The WEMOS is setup as a webserver that serves json data on port 80. When a client
+connects the WEMOS it reads i2c data from a temperature and humidity sensor and responds to the
+clients request with the currently collected data.
+
+I personally use this for realtime temperature and humidity watching of the attic and basement of my house.
 
 **The following instructions apply to setup on OSX**
 
