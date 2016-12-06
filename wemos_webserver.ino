@@ -1,26 +1,3 @@
-/*
- * To setup environment:
- * Install https://www.wemos.cc/downloads
- * Install Python/pip
- * Create the directory [sketchbook directory]/hardware/esp8266com
- * Run the following commands in that directory:
- * %> git clone https://github.com/esp8266/Arduino.git esp8266
- * %> cd esp8266/tools
- * %> python get.py
- *
- * To setup Arduino IDE:
- * Set board to "WeMos D1 R2 & mini"
- * CPU frequency: 80 Mhz
- * Flash size: 4M (1M ..)
- * Upload speed: 115200
- * Port: /dev/cu.wchusbserial1420
- * Programmer: AVRISP mkII
- * 
- * Set serial monitor to:
- * 115200 baud
- * 
- */
-
 #include <ESP8266WiFi.h>
 #include "secrets.h"
  
