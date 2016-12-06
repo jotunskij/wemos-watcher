@@ -11,6 +11,14 @@ Temperature and humidity watcher build on a Wemos D1 mini v2
  * ```> git clone https://github.com/esp8266/Arduino.git esp8266```
  * ```> cd esp8266/tools```
  * ```> python get.py```
+ * Clone this project to your sketchbook directory and add a ```secrets.h``` file with the following content:
+```c++
+namespace secrets {
+  const char* ssid = "YOUR_WIFI_PASSWORD";
+  const char* password = "YOUR_WIFI_PASSWORD";
+}
+```
+
 
 ## To setup Arduino IDE
 |Setting|Value|
