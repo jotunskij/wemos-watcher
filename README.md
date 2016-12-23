@@ -42,5 +42,6 @@ namespace secrets {
 Download both the following libraries and add to Arduino/libraries.
 
 https://github.com/adafruit/DHT-sensor-library
+
 https://github.com/adafruit/Adafruit_Sensor
 
