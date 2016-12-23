@@ -36,3 +36,11 @@ namespace secrets {
 |Port|/dev/cu.wchusbserial1420|
 |Programmer|AVRISP mkII|
 |Serial monitor baud|115200|
+
+## Install required libraries
+
+Download both the following libraries and add to Arduino/libraries.
+
+https://github.com/adafruit/DHT-sensor-library
+https://github.com/adafruit/Adafruit_Sensor
+
